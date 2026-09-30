@@ -4,7 +4,7 @@ import pandas as pd
 import streamlit as st
 
 ## Loading models 
-model = joblib.load('XGboost.pkl')
+model = joblib.load('XGBoost.pkl')
 scaler = joblib.load('standard_scaler.pkl')
 encoder = joblib.load('onehot_encoder.pkl')
 feature = joblib.load('feature_columns.pkl')
